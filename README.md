@@ -11,25 +11,27 @@ These instructions will help you get a copy of the project up and running on you
 - [Node.js + npm](https://nodejs.org/en/download/package-manager)
 - [Android SDK Command Line Tools](https://developer.android.com/tools) or [Android Studio](https://developer.android.com/studio)
 - [EAS CLI](https://docs.expo.dev/build/setup/#install-the-latest-eas-cli)
+
 ### Installing Dependencies
 
 1. Clone the repository:
-    ```bash
-    # HTTPS
-    git clone https://github.com/Geezgus/lojas-go-mobile.git
 
-    # SSH
-    git clone git@github.com:Geezgus/lojas-go-mobile.git
+   ```bash
+   # HTTPS
+   git clone https://github.com/Geezgus/lojas-go-mobile.git
 
-    # GitHub CLI
-    gh repo clone Geezgus/lojas-go-mobile
-    ```
+   # SSH
+   git clone git@github.com:Geezgus/lojas-go-mobile.git
+
+   # GitHub CLI
+   gh repo clone Geezgus/lojas-go-mobile
+   ```
 
 2. Navigate to the project directory and install dependencies with locked versions:
-    ```bash
-    cd lojas-go-mobile
-    npm ci
-    ```
+   ```bash
+   cd lojas-go-mobile
+   npm ci
+   ```
 
 ### Running the App
 
@@ -44,6 +46,7 @@ The web app will be available at `http://localhost:8081`
 ### Building and Publishing the Expo App
 
 To build the Expo app for Android:
+
 ```bash
 # To build as Android App Bundle (AAB)
 eas build --platform android --profile production
